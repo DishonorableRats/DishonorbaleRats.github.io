@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Markiplier</title>
+  <title>Markiplier Fan Page</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
 
-  <h1>Mark Edward Fischbach (Aka: Markiplier), Famous YouTuber</h1>
-  <h3>June 2025</h3>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#table">Stats</a></li>
+    </ul>
+  </nav>
 
-  <img src="https://m.media-amazon.com/images/M/MV5BMzhlZjZmOTctMDUxMy00OTFhLWJhMjAtNDM0N2I4YTQ1MjVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="In Space with Markiplier"width="400" height="500">
+  <header>
+    <h1>Markiplier Fan Page</h1>
+    <h3>By Rey Gonzalez - June 2025</h3>
+  </header>
 
-  <p>
-    Mark Edward Fischbach, known online as <strong>Markiplier</strong>, is one of the most influential content creators on YouTube.
-    Known for his energetic personality, comedic timing, and deep connection with his audience, Markiplier has become a household name in the world of online entertainment.
-  </p>
+  <main class="columns">
+    <section id="about">
+      <h2>
+        About Markiplier
+      </h2>
+      <p>
+        Mark Edward Fischbach, better known as Markiplier, is a beloved YouTube personality known for horror game Let's Plays, original series, and interactive videos.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Markiplier_by_Gage_Skidmore.jpg" alt="Markiplier" width="300">
+    </section>
 
-  <p>
-    He began his YouTube channel in 2012, primarily uploading gameplay videos of horror games like 
-    <em>Amnesia: The Dark Descent</em> and <em>Five Nights at Freddy’s</em>.
-    Over time, his content evolved to include sketch comedy, original series, and even interactive films such as 
-    <em>A Heist with Markiplier</em>.
-  </p>
+    <section id="projects">
+      <h2>Popular Projects</h2>
+      <ul>
+        <li><em>A Heist with Markiplier</em></li>
+        <li><em>In Space with Markiplier</em></li>
+        <li><em>Unus Annus</em> (with Ethan Nestor)</li>
+      </ul>
+      <button onclick="showMessage()">Click for a Quote</button>
+      <p id="quoteBox"></p>
+    </section>
+  </main>
 
-  <h2>Popular Projects by Markiplier</h2>
-  <ol>
-    <li><em>A Heist with Markiplier</em></li>
-    <li><em>In Space with Markiplier</em></li>
-    <li><em>Unus Annus</em> (with Ethan Nestor)</li>
-  </ol>
+  <section id="table">
+    <h2>Channel Stats</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Subscribers (M)</th>
+          <th>Major Milestone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2012</td>
+          <td>0.01</td>
+          <td>Channel launched</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>4</td>
+          <td>Started FNAF series</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>35</td>
+          <td>Announced feature film</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
   <footer>
     <hr>
-    <p>&copy; 2025 Rey Gonzalez.</p>
+    <p>&copy; 2025 Rey Gonzalez. All rights reserved.</p>
   </footer>
 
 </body>
