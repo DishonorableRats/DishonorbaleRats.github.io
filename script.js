@@ -11,6 +11,11 @@ function showMessage() {
   document.getElementById("quoteBox").textContent = quotes[random];
 }
 
+const person = {
+  sport: "Soccer",
+  pet: "Max"
+};
+
 function displayPersonalInfo() {
   document.getElementById("sport").textContent = person.sport;
   document.getElementById("pet").textContent = person.pet;
