@@ -11,19 +11,28 @@ function showMessage() {
   document.getElementById("quoteBox").textContent = quotes[random];
 }
 
-// Example #2 - simple background color changer
+const person = {
+  sport: "Soccer",
+  pet: "Max"
+};
+
+function displayPersonalInfo() {
+  document.getElementById("sport").textContent = person.sport;
+  document.getElementById("pet").textContent = person.pet;
+}
+
+window.onload = function () {
+  changeBackgroundColor();
+  highlightTable();
+  displayPersonalInfo();
+};
+
 function changeBackgroundColor() {
   document.body.style.backgroundColor = '#e6f7ff';
 }
 
-// Example #3 - table row highlighter
 function highlightTable() {
   const rows = document.querySelectorAll("tbody tr");
   rows.forEach(row => row.style.backgroundColor = "#ffffcc");
 }
 
-// Run #2 and #3 when page loads
-window.onload = function () {
-  changeBackgroundColor();
-  highlightTable();
-};
