@@ -12,8 +12,8 @@ function showMessage() {
 }
 
 const person = {
-  sport: "Soccer",
-  pet: "Max"
+  sport: "None",
+  pet: "Tom"
 };
 
 function displayPersonalInfo() {
